@@ -2,7 +2,7 @@
 
   Meu repositório de estudo com uma compilação de todos os métodos para String, Array e Objeto com exemplos.
 
-  Para ver o resultado no navegador abar o console ou veja os comentários no próprio código.
+  Para ver o resultado no navegador abra o console ou veja os comentários no próprio código.
 
 Fonte:
   https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects
