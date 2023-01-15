@@ -97,24 +97,24 @@ Métodos de iteração
 ## Array
 
 Object Methods
-  1.assign() = Copia os valores de todas as propriedades próprias enumeráveis ​​de um ou mais objetos de origem para um objeto de destino.
-  2.create() = Cria um novo objeto com o objeto e as propriedades do protótipo especificado.
-  3.entries() = Retorna uma matriz contendo todos os pares [key, value] das próprias propriedades de string enumeráveis ​​de um determinado objeto.
-  4.fromEntries() = Retorna um novo objeto de um iterável de pares de valor-chave (o contrário do método entries).
-  5.keys() = Retorna uma matriz contendo os nomes de todas as propriedades de string enumeráveis ​​do objeto fornecido.
-  6.values() = Retorna uma matriz contendo os valores que correspondem a todas as propriedades de string enumeráveis ​​do próprio objeto.
-  7.defineProperty() = Adiciona a propriedade nomeada descrita por um determinado descritor a um objeto.
-  8.defineProperties() = Adiciona as propriedades nomeadas descritas pelos descritores fornecidos a um objeto.
-  9.getOwnPropertyDescriptor() = Retorna um descritor de propriedade para uma propriedade nomeada em um objeto.
-  10.getOwnPropertyDescriptors() = Retorna um objeto contendo todos os descritores de propriedade para um objeto.
-  11.getOwnPropertyNames() = Retorna uma matriz contendo os nomes de todas as propriedades enumeráveis ​​e não enumeráveis ​​do próprio objeto fornecido.
-  12.getOwnPropertySymbols() = Retorna uma matriz de todas as propriedades de símbolo encontradas diretamente sobre um determinado objeto.
-  13.setPrototypeOf() = Define o protótipo (isto é, a propriedade interna [[Prototype]]).
-  14.getPrototypeOf() = Retorna o protótipo do objeto especificado.
-  15.is() = Compara se dois valores são o mesmo valor. Equivale a todos os valores de NaN (que diferem da Comparação de Igualdade Abstrata e da Comparação de Igualdade Estrita).
-  16.preventExtensions() = Impede qualquer extensão de um objeto.
-  17.isExtensible() = Determina se a extensão de um objeto é permitida.
-  18.freeze() = Congela um objeto: outro código não pode excluir ou alterar nenhuma propriedade.
-  19.isFrozen() = Determina se um objeto foi congelado.
-  20.seal() = Impede que outro código exclua propriedades de um objeto.
-  21.isSealed() = Determina se um objeto está selado.
+  1. assign() = Copia os valores de todas as propriedades próprias enumeráveis ​​de um ou mais objetos de origem para um objeto de destino.
+  2. create() = Cria um novo objeto com o objeto e as propriedades do protótipo especificado.
+  3. entries() = Retorna uma matriz contendo todos os pares [key, value] das próprias propriedades de string enumeráveis ​​de um determinado objeto.
+  4. fromEntries() = Retorna um novo objeto de um iterável de pares de valor-chave (o contrário do método entries).
+  5. keys() = Retorna uma matriz contendo os nomes de todas as propriedades de string enumeráveis ​​do objeto fornecido.
+  6. values() = Retorna uma matriz contendo os valores que correspondem a todas as propriedades de string enumeráveis ​​do próprio objeto.
+  7. defineProperty() = Adiciona a propriedade nomeada descrita por um determinado descritor a um objeto.
+  8. defineProperties() = Adiciona as propriedades nomeadas descritas pelos descritores fornecidos a um objeto.
+  9. getOwnPropertyDescriptor() = Retorna um descritor de propriedade para uma propriedade nomeada em um objeto.
+  10. getOwnPropertyDescriptors() = Retorna um objeto contendo todos os descritores de propriedade para um objeto.
+  11. getOwnPropertyNames() = Retorna uma matriz contendo os nomes de todas as propriedades enumeráveis ​​e não enumeráveis ​​do próprio objeto fornecido.
+  12. getOwnPropertySymbols() = Retorna uma matriz de todas as propriedades de símbolo encontradas diretamente sobre um determinado objeto.
+  13. setPrototypeOf() = Define o protótipo (isto é, a propriedade interna [[Prototype]]).
+  14. getPrototypeOf() = Retorna o protótipo do objeto especificado.
+  15. is() = Compara se dois valores são o mesmo valor. Equivale a todos os valores de NaN (que diferem da Comparação de Igualdade Abstrata e da Comparação de Igualdade Estrita).
+  16. preventExtensions() = Impede qualquer extensão de um objeto.
+  17. isExtensible() = Determina se a extensão de um objeto é permitida.
+  18. freeze() = Congela um objeto: outro código não pode excluir ou alterar nenhuma propriedade.
+  19. isFrozen() = Determina se um objeto foi congelado.
+  20. seal() = Impede que outro código exclua propriedades de um objeto.
+  21. isSealed() = Determina se um objeto está selado.
