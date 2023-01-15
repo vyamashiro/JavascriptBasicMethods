@@ -82,9 +82,6 @@ console.groupCollapsed('Array')
   // 10. filter() = cria um array com todos os elementos avaliados com true pela função especificada
   // 11. reduce() = reduz o valor do array para um único valor (acumulando da esquerda para a direita)
   // 12. reduceRight() = reduz o valor do array para um único valor (acumulando da direita para a esquerda)
-  // Flat e FlatMap
-  // 1.flat() = cria um novo array com todos os sub-arrays incorporados ao array.
-  // 2.flatMap() = 
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   // - keys, values e entries
   // - every e some
@@ -94,7 +91,6 @@ console.groupCollapsed('Array')
   // - join e toString
   // - splice, pop e push
   // - shift e unshift
-  // - flat e flatMap
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
   // Array - Propriedades
@@ -560,34 +556,6 @@ console.groupCollapsed('Array')
     console.log(newArrayReduceRight)
   console.groupEnd()
 
-  console.groupEnd()
-
-  // flat() = cria um novo array com todos os sub-arrays incorporados ao array.
-  const arrayFlat1 = [0, 1, 2, [3, 4]]
-  const newArrayFlat1 = arrayFlat1.flat()
-
-  const arrayFlat2 = [0, 1, 2, [[[3, 4]]]]
-  const newArrayFlat2 = arrayFlat2.flat(2) //nesse caso o número 2 especifica a profundidade que o flat deve ser aplicado.
-
-  console.groupCollapsed('flat')
-    console.log(arrayFlat1)
-    console.log(newArrayFlat1) // [0, 1, 2, 3, 4]
-    console.log(arrayFlat2)
-    console.log(newArrayFlat2) // [0, 1, 2, [3, 4]]
-  console.groupEnd()
-
-  // flatMap() = 
-  const arrayFlatMap1 = [0, 1, 2, [3, 4]]
-  const newArrayFlatMap1 = arrayFlatMap1.flatMap(item => [[ item * 2 ]])
-
-  const arrayFlatMap2 = [0, 1, 2, [[[3, 4]]]]
-  const newArrayFlatMap2 = arrayFlatMap2.flatMap(() => {  })
-
-  console.groupCollapsed('flatMap')
-    console.log(arrayFlatMap1)
-    console.log(newArrayFlatMap1) // 
-    console.log(arrayFlatMap2)
-    console.log(newArrayFlatMap2) // 
   console.groupEnd()
 
 console.groupEnd()
