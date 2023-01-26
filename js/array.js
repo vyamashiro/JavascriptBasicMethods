@@ -228,10 +228,10 @@ console.groupCollapsed('Array')
   const arraySort4 = ['john' , 'ana', 'Ana', 'John'];
   const newArraySort4 = arraySort4.sort((a, b) => a.localeCompare(b));
 
-  const arraySort5 = [1 , 2, 10, 21];
+  const arraySort5 = [21, 1, 10, 2];
   const newArraySort5 = arraySort5.sort();
 
-  const arraySort6 = [1 , 2, 10, 21];
+  const arraySort6 = [21, 1, 10, 2];
   const newArraySort6 = arraySort6.sort((a, b) => a - b);
 
   console.groupCollapsed('sort')
