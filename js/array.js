@@ -234,6 +234,9 @@ console.groupCollapsed('Array')
   const arraySort6 = [21, 1, 10, 2];
   const newArraySort6 = arraySort6.sort((a, b) => a - b);
 
+  const arraySort7 = [21, 1, 10, 2];
+  const newArraySort7 = arraySort6.sort((a, b) => b - a);
+
   console.groupCollapsed('sort')
     console.log(arraySort1) // ["A", "C", "G", "a", "b", "d"]
     console.log(newArraySort1) // ["A", "C", "G", "a", "b", "d"]
@@ -245,8 +248,10 @@ console.groupCollapsed('Array')
     console.log(newArraySort4) // ["ana", "Ana", "john", "John"]
     console.log(arraySort5) //  [1, 10, 2, 21]
     console.log(newArraySort5) //  [1, 10, 2, 21]
-    console.log(arraySort6) // [1, 2, 10, 21]
-    console.log(newArraySort6) // [1, 2, 10, 21]
+    console.log(arraySort6) // [21, 10, 2, 1]
+    console.log(newArraySort6) // [21, 10, 2, 1]
+    console.log(arraySort7) // [21, 1, 10, 2]
+    console.log(newArraySort7) // [21, 10, 2, 1]
   console.groupEnd()
 
   // 5. splice() = adiciona ou remove elementos em um array.
